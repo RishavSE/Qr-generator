@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qr Generator</title>
+  <link rel="stylesheet" href="qr.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap">
+</head>
+<body>
+  <div class="container">
+       <div class="input">
+        <h1>Qr Generator</h1>
+         <section class="input_section">
+            <input type="text" placeholder="Put URL Here..." name="input_text" id="input_text"  autocomplete="off">
+            <button class="button" type="submit">Generate <i class="fa fa-repeat"></i> </button>
+         </section>
+       </div>
+       <div class="qr-code"></div>
+  </div>
+  <script src="qr.js"></script>
+</body>
+</html>

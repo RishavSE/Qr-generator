@@ -30,7 +30,7 @@ QRCode.js – Lightweight JS library for rendering QR codes
 
 📦 Getting Started
 1. Clone the Repository
-git clone https://github.com/RAJPUT0610/Qr-generator.git
+git clone https://github.com/rishavSE/Qr-generator.git
 cd Qr-generator
 
 
